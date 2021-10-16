@@ -22,7 +22,7 @@ let package = Package(
     ],
     dependencies: [
         // StreamChat
-        .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.2")
+        .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.2.0")
     ],
     targets: [
         .target(
