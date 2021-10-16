@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-  spec.name = "MyLibraryCore"
-  spec.version = "1.0.0"
+  spec.name = "MyLibraryStore"
+  spec.version = "1.0.1"
   spec.summary = "My testing library"
   spec.description = "this is a test project for learning how to create a pod."
 
@@ -16,9 +16,9 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/mansoor92/MyLibrary", :tag => "#{spec.version}" }
   spec.requires_arc = true
 
-  spec.source_files  = "Sources/MyLibraryCore/**/*.swift"
-  spec.exclude_files = ["Sources/MyLibraryCore/**/*_Tests.swift", "Sources/MyLibraryCore/**/*_Mock.swift"]
-  spec.resource_bundles = { "MyLibraryCore" => ["Sources/MyLibraryCore/**/*.xcdatamodeld"] }
+  spec.source_files  = "Sources/MyLibraryStore/**/*.swift"
+  spec.exclude_files = ["Sources/MyLibraryStore/**/*_Tests.swift", "Sources/MyLibraryStore/**/*_Mock.swift"]
+  spec.resource_bundles = { "MyLibraryStore" => ["Sources/MyLibraryStore/**/*.xcdatamodeld"] }
 
   spec.framework = "Foundation"
   spec.ios.framework = "UIKit"

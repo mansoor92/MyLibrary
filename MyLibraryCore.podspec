@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "MyLibraryCore"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.summary = "My testing library"
   spec.description = "this is a test project for learning how to create a pod."
 
